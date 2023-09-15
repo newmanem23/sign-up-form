@@ -66,16 +66,14 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 1.5rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 1.5;
     flex: 1;
 }
 
-.call-to-action p {
-    margin-bottom: 24px;
-}
 
 form {
     flex: 0 0;
@@ -85,6 +83,7 @@ form {
 
 .login {
     flex: 1;
+    padding: 1.5rem;
 }
 
 .form-row {
@@ -112,7 +111,35 @@ form {
     width: 100%;
 }
 
+.form-field input:focus {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 h3 {
     font-weight: 300;
     margin-bottom: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.1s;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+    scale: 1.05;
+}
+
+.login a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }

@@ -25,36 +25,39 @@
                 You <em>know</em> you want to.
             </p>
         </div>
-        <form action="" id="create-account">
+        <form action="#" method="get" id="create-account">
             <h3>LET'S DO THIS!</h3>
             <div class="form-row">
                 <div class="form-field">
                     <label for="first-name">FIRST NAME</label>
-                    <input id="first-name" name="first-name" type="text">
+                    <input id="first-name" name="first-name" type="text" required>
                 </div>
                 <div class="form-field">
                     <label for="">LAST NAME</label>
-                    <input id="last-name" name="last-name" type="text">
+                    <input id="last-name" name="last-name" type="text" required>
                 </div>
                 <div class="form-field">
                     <label for="email">EMAIL</label>
-                    <input id="email" name="email" type="email">
+                    <input id="email" name="email" type="email" required>
                 </div>
                 <div class="form-field">
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input id="phone-numner" name="phone-number" type="tel">
+                    <input id="phone-number" name="phone-number" type="tel" required>
                 </div>
                 <div class="form-field">
                     <label for="password">PASSWORD</label>
-                    <input id="password" name="password" type="password">
+                    <input id="password" name="password" type="password" required>
                 </div>
                 <div class="form-field">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input id="confirm-password", name="confirm-password" type="password">
+                    <input id="confirm-password", name="confirm-password" type="password" required>
                 </div>
             </div>
         </form>
-        <div class="login">LOGIN</div>
+        <div class="login">
+            <button form="create-account" type="submit">Create Account</button>
+            <p>Already have an account? <a href="index.html">Login</a></p>
+        </div>
     </div>
 </body>
 </html>
