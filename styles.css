@@ -63,10 +63,14 @@ a {
 }
 
 .call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     padding: 0 1.5rem;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 1.5;
+    flex: 1;
 }
 
 .call-to-action p {
@@ -74,8 +78,13 @@ a {
 }
 
 form {
+    flex: 0 0;
     background-color: white;
-    padding: 1.5rem;
+    padding: 3rem 1.5rem;
+}
+
+.login {
+    flex: 1;
 }
 
 .form-row {
