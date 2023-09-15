@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
@@ -19,11 +19,6 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-}
-
-.form-container {
-    flex: 1 60%;
-    border: 1px solid blue;
 }
 
 .logo-container {
@@ -57,4 +52,58 @@ img {
 
 a {
     color: inherit;
+}
+
+.form-container {
+    flex: 1 60%;
+    background-color: rgb(243, 244, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action {
+    padding: 0 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.call-to-action p {
+    margin-bottom: 24px;
+}
+
+form {
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.form-field {
+    flex: auto;
+}
+
+.form-field label {
+    display: block;
+    font-size: 0.6rem;
+    margin-bottom: 2px;
+}
+
+.form-field input {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    width: 100%;
+}
+
+h3 {
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
