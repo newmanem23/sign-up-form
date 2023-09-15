@@ -36,7 +36,6 @@ body {
 }
 
 img {
-    display: block;
     height: 100%;
     width: auto;
 }
@@ -76,7 +75,7 @@ a {
 
 
 form {
-    flex: 0 0;
+    flex: 0;
     background-color: white;
     padding: 3rem 1.5rem;
 }
