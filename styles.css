@@ -91,6 +91,7 @@ form {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 1rem;
+    max-width: 800px;
 }
 
 .form-field {
